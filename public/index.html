@@ -3,33 +3,72 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Sangam – Full-stack developer</title>
-<meta name="description" content="Sangam builds marketplaces, dashboards and automation tools with React, Node.js and Python.">
+<title>Pramesh – Full-stack Developer</title>
+<meta name="description" content="Pramesh is a full-stack developer building marketplaces, dashboards and automation tools with React, Node.js and Python.">
+
+<!-- LinkedIn / WhatsApp / Facebook preview card.
+     After you deploy, replace YOUR-SITE-URL with your real site address,
+     for example https://yourname.github.io/portfolio -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pramesh – Full-stack Developer">
+<meta property="og:description" content="Marketplaces, dashboards and automation tools. See my work.">
+<meta property="og:url" content="https://YOUR-SITE-URL/">
+<meta property="og:image" content="https://YOUR-SITE-URL/assets/preview.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#12357F">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
-    <a class="logo" href="#top">Pramesh Shrestha<i>.</i></a>
-    <nav aria-label="Main"><a href="#work">Work</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
-  </header>
 
-  <main id="top">
-    <div class="hero">
-      <h1>I build software people use every day.</h1>
-      <p class="lead">I’m Sangam, a full-stack developer. I design and ship marketplaces, dashboards and automation tools, from the database to the screen.</p>
-      <div class="cta">
-        <a class="btn fill" href="#work">See my work</a>
-        <a class="btn" href="#contact">Get in touch</a>
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#top">Pramesh<i>.</i></a>
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button id="themeBtn" class="theme" type="button" aria-label="Switch light or dark theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow" data-text="role">Full-stack developer</p>
+        <h1>I build software people use every day.</h1>
+        <p class="lead">I’m <span data-text="name">Pramesh</span>. I design and ship marketplaces, dashboards and automation tools, from the database to the screen.</p>
+        <div class="cta">
+          <a class="btn fill" href="#work">See my work</a>
+          <a class="btn" href="#contact">Hire me</a>
+          <a class="btn ghost" data-href="resume" download hidden>Download CV</a>
+        </div>
+        <ul class="quick">
+          <li><a data-href="email" data-text="email" hidden></a></li>
+          <li><a data-href="phone" data-text="phone" hidden></a></li>
+          <li><span data-text="location" hidden></span></li>
+        </ul>
       </div>
-      <svg class="ridge" viewBox="0 0 1040 150" preserveAspectRatio="none" aria-hidden="true">
-        <path class="back" d="M0 150V92l70-42 60 34 90-64 80 58 70-28 110 66 90-60 100 52 80-34 110 60 80-46 100 30 0 82z"/>
-        <path class="front" d="M0 150V120l110-46 70 36 120-70 90 64 110-40 90 50 120-80 100 70 90-30 130 56V150z"/>
-      </svg>
-    </div>
+      <figure class="portrait" id="portrait">
+        <img id="photo" alt="Portrait of Pramesh" width="420" height="420">
+        <span class="initials" aria-hidden="true">S</span>
+      </figure>
+    </section>
 
+    <svg class="ridge" viewBox="0 0 1040 150" preserveAspectRatio="none" aria-hidden="true">
+      <path class="back" d="M0 150V92l70-42 60 34 90-64 80 58 70-28 110 66 90-60 100 52 80-34 110 60 80-46 100 30 0 82z"/>
+      <path class="front" d="M0 150V120l110-46 70 36 120-70 90 64 110-40 90 50 120-80 100 70 90-30 130 56V150z"/>
+    </svg>
+
+    <!-- ABOUT -->
     <section id="about">
       <h2>About</h2>
       <div class="about">
@@ -41,10 +80,12 @@
           <dt>Focus</dt><dd>Marketplaces, dashboards, bots</dd>
           <dt>Core stack</dt><dd>React, Node.js, Express, PostgreSQL, Python</dd>
           <dt>Building for</dt><dd>Nepal’s growing online market</dd>
+          <dt>Available for</dt><dd>Freelance, collaboration, full-time</dd>
         </dl>
       </div>
     </section>
 
+    <!-- WORK -->
     <section id="work">
       <h2>Selected work</h2>
 
@@ -58,7 +99,7 @@
             <li>Security headers hardened in Express: CSP, X-Frame-Options, Referrer-Policy and Permissions-Policy</li>
           </ul>
           <ul class="stack"><li>React</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>Render</li></ul>
-          <a class="plink" data-link="nepsub" href="#contact">Visit NepSub</a>
+          <a class="plink" data-href="nepsub" target="_blank" rel="noopener" hidden>Visit live site ↗</a>
         </div>
       </article>
 
@@ -72,7 +113,7 @@
             <li>Planned as a five-phase MVP</li>
           </ul>
           <ul class="stack"><li>JavaScript</li><li>Node.js</li><li>Express</li><li>Database-backed</li></ul>
-          <a class="plink" data-link="projecthub" href="#contact">View project</a>
+          <a class="plink" data-href="projecthub" target="_blank" rel="noopener" hidden>View project ↗</a>
         </div>
       </article>
 
@@ -86,35 +127,55 @@
             <li>Win and loss tracking per signal is next</li>
           </ul>
           <ul class="stack"><li>Python</li><li>Telegram Bot API</li><li>pyquotex</li></ul>
-          <a class="plink" data-link="quotexbot" href="#contact">View project</a>
+          <a class="plink" data-href="quotexbot" target="_blank" rel="noopener" hidden>View project ↗</a>
         </div>
       </article>
+
+      <!-- ADD MORE SITES: copy one whole <article class="project"> block above,
+           paste it here, change the text, and add a key in js/main.js (PROFILE.projects). -->
     </section>
 
+    <!-- SKILLS -->
     <section id="skills">
       <h2>What I do</h2>
       <div class="skills">
         <div><h3>Frontend</h3><p>React interfaces with clear flows, such as variant pickers and package grids for top-up stores.</p></div>
-        <div><h3>Backend</h3><p>Node.js and Express APIs, PostgreSQL schemas, authentication and payments-ready order flows.</p></div>
+        <div><h3>Backend</h3><p>Node.js and Express APIs, PostgreSQL schemas, authentication and order flows.</p></div>
         <div><h3>Security</h3><p>Social login, header audits and hardening before a site goes in front of real customers.</p></div>
         <div><h3>Automation</h3><p>Python bots and scripts that watch data and act on it.</p></div>
       </div>
+      <ul class="stack big">
+        <li>JavaScript</li><li>React</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>Python</li><li>OAuth 2.0</li><li>REST APIs</li><li>Git and GitHub</li><li>Render</li>
+      </ul>
     </section>
-  </main>
-</div>
 
-<div class="contact" id="contact">
-  <div class="wrap">
-    <h2>Let’s build something.</h2>
-    <p>I’m open to freelance projects, collaborations and full-time roles. Send a short note about what you need.</p>
-    <div class="cta">
-      <a class="btn fill" data-link="email" href="#contact">Email me</a>
-      <a class="btn" data-link="linkedin" href="#contact">LinkedIn</a>
-      <a class="btn" data-link="github" href="#contact">GitHub</a>
-    </div>
-    <footer style="color:#B9C6E6">© <span id="yr">2026</span> Sangam</footer>
   </div>
-</div>
+</main>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Let’s build something.</h2>
+      <p>I’m open to freelance projects, collaborations and full-time roles. Send a short note about what you need, and I reply soon.</p>
+      <ul class="clist">
+        <li><span>Email</span><a data-href="email" data-text="email" hidden></a></li>
+        <li><span>Phone</span><a data-href="phone" data-text="phone" hidden></a></li>
+        <li><span>WhatsApp</span><a data-href="whatsapp" target="_blank" rel="noopener" hidden>Message me</a></li>
+        <li><span>LinkedIn</span><a data-href="linkedin" target="_blank" rel="noopener" hidden>Open profile ↗</a></li>
+        <li><span>GitHub</span><a data-href="github" target="_blank" rel="noopener" hidden>Open profile ↗</a></li>
+      </ul>
+    </div>
+    <form id="mailForm" class="form" hidden>
+      <label>Your name<input name="n" required autocomplete="name"></label>
+      <label>Your email<input name="e" type="email" required autocomplete="email"></label>
+      <label>Message<textarea name="m" rows="5" required></textarea></label>
+      <button class="btn fill" type="submit">Send message</button>
+      <small>This opens your email app with the message ready to send.</small>
+    </form>
+  </div>
+  <div class="wrap foot">© <span id="yr">2026</span> <span data-text="name">Pramesh</span>. All rights reserved.</div>
+</section>
 
 <script src="js/main.js"></script>
 </body>
