@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -15,7 +15,7 @@
 <meta property="og:url" content="https://YOUR-SITE-URL/">
 <meta property="og:image" content="https://YOUR-SITE-URL/assets/preview.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#12357F">
+<meta name="theme-color" content="#0b100e">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,9 +43,9 @@
     <!-- HERO -->
     <section class="hero">
       <div class="hero-text">
-        <p class="eyebrow" data-text="role">Full-stack developer</p>
-        <h1>I build software people use every day.</h1>
-        <p class="lead">I’m <span data-text="name">Pramesh</span>. I design and ship marketplaces, dashboards and automation tools, from the database to the screen.</p>
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span><span data-text="role">Full-stack developer</span></p>
+        <h1><span data-text="name">Pramesh</span><br><span class="hero-title-accent">Full-stack developer.</span></h1>
+        <p class="lead">I design and ship marketplaces, dashboards and automation tools, from the database to the screen.</p>
         <div class="cta">
           <a class="btn fill" href="#work">See my work</a>
           <a class="btn" href="#contact">Hire me</a>
@@ -74,7 +74,7 @@
       <div class="about">
         <div>
           <p>I’m a developer who likes owning a product end to end. I plan the data model, build the API, wire up the interface, then deploy and harden it.</p>
-          <p>My main project, NepSub, is a digital goods marketplace for Nepal. It sells game top-ups, subscriptions, gift cards and game keys. I also build trading automation and internal-tools software.</p>
+          <p>My main project, GameShop, is a digital goods marketplace for Nepal. It sells game top-ups, subscriptions, gift cards and game keys. I also build trading automation and internal-tools software.</p>
         </div>
         <dl class="facts">
           <dt>Focus</dt><dd>Marketplaces, dashboards, bots</dd>
@@ -87,11 +87,17 @@
 
     <!-- WORK -->
     <section id="work">
-      <h2>Selected work</h2>
+      <h2>Selected projects<span class="heading-mark">.</span></h2>
 
       <article class="project">
-        <div><h3>NepSub</h3><div class="tag">Live marketplace</div></div>
-        <div>
+        <div class="project-visual">
+          <button class="preview-trigger" type="button" aria-label="Preview GameShop screenshot">
+            <img src="assets/gameshop.png" alt="Illustrated GameShop marketplace interface preview" loading="lazy" width="1200" height="760">
+            <span class="visual-label">Click to preview</span>
+          </button>
+        </div>
+        <div class="project-content">
+          <div class="project-heading"><div><a href="https://gameshop.onrender.com/" target="_blank" rel="noopener noreferrer"><h3>GameShop</h3></a><div class="tag">Digital goods marketplace</div></div><span class="project-number">01</span></div>
           <p>A digital goods marketplace for Nepal. Customers buy game top-ups, subscriptions, gift cards and game keys in one place.</p>
           <ul>
             <li>Google and Facebook sign-in with OAuth 2.0</li>
@@ -99,13 +105,19 @@
             <li>Security headers hardened in Express: CSP, X-Frame-Options, Referrer-Policy and Permissions-Policy</li>
           </ul>
           <ul class="stack"><li>React</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>Render</li></ul>
-          <a class="plink" data-href="nepsub" target="_blank" rel="noopener" hidden>Visit live site ↗</a>
+          <a class="plink" data-href="GameShop" target="_blank" rel="noopener" hidden>Visit live site ↗</a>
         </div>
       </article>
 
       <article class="project">
-        <div><h3>Project Hub</h3><div class="tag">Product in build</div></div>
-        <div>
+        <div class="project-visual">
+          <button class="preview-trigger" type="button" aria-label="Preview Project Hub screenshot">
+            <img src="assets/projecthub-preview.svg" alt="Illustrated Project Hub dashboard interface preview" loading="lazy" width="1200" height="760">
+            <span class="visual-label">Click to preview</span>
+          </button>
+        </div>
+        <div class="project-content">
+          <div class="project-heading"><div><h3>Project Hub</h3><div class="tag">Organization workspace</div></div><span class="project-number">02</span></div>
           <p>One platform where an organization creates, manages and tracks all its projects. Think GitHub for real-world work.</p>
           <ul>
             <li>Project dashboards, finance tracking and activity history</li>
@@ -118,8 +130,14 @@
       </article>
 
       <article class="project">
-        <div><h3>QuotexBot</h3><div class="tag">Automation</div></div>
-        <div>
+        <div class="project-visual">
+          <button class="preview-trigger" type="button" aria-label="Preview QuotexBot screenshot">
+            <img src="assets/quotexbot-preview.svg" alt="Illustrated QuotexBot signal dashboard interface preview" loading="lazy" width="1200" height="760">
+            <span class="visual-label">Click to preview</span>
+          </button>
+        </div>
+        <div class="project-content">
+          <div class="project-heading"><div><h3>QuotexBot</h3><div class="tag">Trading signal automation</div></div><span class="project-number">03</span></div>
           <p>A Telegram bot that sends trading signals from technical indicators. It runs against the Quotex broker through pyquotex.</p>
           <ul>
             <li>Signals from EMA crossover, RSI and MACD</li>
@@ -145,7 +163,7 @@
         <div><h3>Automation</h3><p>Python bots and scripts that watch data and act on it.</p></div>
       </div>
       <ul class="stack big">
-        <li>JavaScript</li><li>React</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>Python</li><li>OAuth 2.0</li><li>REST APIs</li><li>Git and GitHub</li><li>Render</li>
+        <li>JavaScript</li><li>React</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>OAuth 2.0</li><li>REST APIs</li><li>Git and GitHub</li><li>Render</li>
       </ul>
     </section>
 
@@ -174,8 +192,26 @@
       <small>This opens your email app with the message ready to send.</small>
     </form>
   </div>
-  <div class="wrap foot">© <span id="yr">2026</span> <span data-text="name">Pramesh</span>. All rights reserved.</div>
+  <div class="wrap foot">
+    <span>© <span id="yr">2026</span> <span data-text="name">Pramesh</span>. All rights reserved.</span>
+    <nav class="social-links" aria-label="Social media">
+      <a data-href="facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8.2h2.8l.4-3.2h-3.2v-2c0-.9.3-1.6 1.6-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.4Z"/></svg>
+      </a>
+      <a data-href="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="icon-dot" cx="17.6" cy="6.8" r="1"/></svg>
+      </a>
+      <a data-href="threads" target="_blank" rel="noopener noreferrer" aria-label="Threads" title="Threads" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.9 10.1c-.3-3.6-2.5-5.8-6.1-5.8-4 0-6.6 3-6.6 7.7s2.6 7.7 6.7 7.7c3.1 0 5.2-1.8 5.2-4.4 0-2.2-1.5-3.7-3.8-3.7-2 0-3.3 1-3.3 2.7 0 1.1.8 1.9 2 1.9 1.4 0 2.4-1.1 2.4-2.8 0-3-1.8-5.1-4.4-5.1-1.2 0-2.2.4-3 1.2"/></svg>
+      </a>
+    </nav>
+  </div>
 </section>
+
+<dialog class="image-preview" id="imagePreview" aria-label="Image preview">
+  <button class="preview-close" type="button" aria-label="Close image preview">&times;</button>
+  <img id="previewImage" alt="">
+</dialog>
 
 <script src="js/main.js"></script>
 </body>

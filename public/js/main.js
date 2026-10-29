@@ -5,15 +5,18 @@
 var PROFILE = {
   name:     "Pramesh",
   role:     "Full-stack developer",
-  email:    "",                      // "you@example.com"
-  phone:    "",                      // "+977 98XXXXXXXX"
-  whatsapp: "",                      // "https://wa.me/97798XXXXXXXX"
+  email:    "shresthapramesh954@gmail.com",
+  phone:    "9769682334",
+  whatsapp: "https://wa.me/9869796392",
   location: "",                      // "Nepal"
-  photo:    "assets/photo.jpg",      // put your photo in the assets folder
+  photo:    "",                       // "assets/photo.jpg"
   resume:   "",                      // "assets/Pramesh-CV.pdf"
   linkedin: "",                      // "https://www.linkedin.com/in/your-name"
   github:   "",                      // "https://github.com/your-name"
-  nepsub:     "",                    // live NepSub URL
+  facebook: "https://www.facebook.com/pramesa.srestha",
+  instagram: "https://www.instagram.com/prameshhh___",
+  threads: "https://www.threads.net/@prameshhh___",
+  GameShop:     "",                    // live GameShop URL
   projecthub: "",
   quotexbot:  ""
 };
@@ -55,8 +58,8 @@ var PROFILE = {
   ini.textContent = (P.name || "S").charAt(0).toUpperCase();
   function noPhoto() { fig.classList.add("no-photo"); }
   img.addEventListener("error", noPhoto);
-  img.src = P.photo || "";
-  if (!P.photo) noPhoto();
+  if (P.photo) img.src = P.photo;
+  else noPhoto();
 
   // contact form -> opens email app
   var form = document.getElementById("mailForm");
@@ -80,6 +83,29 @@ var PROFILE = {
       : window.matchMedia("(prefers-color-scheme: dark)").matches;
     root.dataset.theme = dark ? "light" : "dark";
     try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+  });
+
+  // project image preview
+  var imagePreview = document.getElementById("imagePreview");
+  var previewImage = document.getElementById("previewImage");
+  var previewClose = imagePreview.querySelector(".preview-close");
+  document.querySelectorAll(".preview-trigger").forEach(function (trigger) {
+    trigger.addEventListener("click", function () {
+      var source = trigger.querySelector("img");
+      previewImage.src = source.currentSrc || source.src;
+      previewImage.alt = source.alt;
+      imagePreview.showModal();
+    });
+  });
+  previewClose.addEventListener("click", function () { imagePreview.close(); });
+  imagePreview.addEventListener("click", function (event) {
+    if (event.target === imagePreview) imagePreview.close();
+  });
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && imagePreview.open) {
+      event.preventDefault();
+      imagePreview.close();
+    }
   });
 
   // scroll reveal

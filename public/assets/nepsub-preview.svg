@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="0" x2="1090" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14251B"/>
+      <stop offset="1" stop-color="#0B100E"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="127" y1="207" x2="1077" y2="481" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#153D2C"/>
+      <stop offset="1" stop-color="#12251A"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#263D2E"/>
+      <stop offset="1" stop-color="#17251C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="758" rx="19" stroke="#304238" stroke-width="2"/>
+  <path d="M1 22C1 10.402 10.402 1 22 1H1178C1189.6 1 1199 10.402 1199 22V54H1V22Z" fill="#141C17"/>
+  <circle cx="27" cy="27" r="6" fill="#F16D66"/>
+  <circle cx="49" cy="27" r="6" fill="#E8B653"/>
+  <circle cx="71" cy="27" r="6" fill="#58C985"/>
+  <rect x="407" y="14" width="386" height="26" rx="13" fill="#0C120E"/>
+  <text x="600" y="32" fill="#8EA397" font-family="Arial,sans-serif" font-size="12" text-anchor="middle">GameShop.com</text>
+  <rect x="1" y="55" width="1198" height="77" fill="#101813"/>
+  <path d="M1 131.5H1199" stroke="#29382E"/>
+  <text x="72" y="101" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="28" font-weight="700">nep</text>
+  <text x="126" y="101" fill="#55E69A" font-family="Arial,sans-serif" font-size="28" font-weight="700">sub</text>
+  <rect x="222" y="76" width="508" height="38" rx="8" fill="#19231C" stroke="#2B3A30"/>
+  <circle cx="244" cy="94" r="6" stroke="#93A398" stroke-width="2"/>
+  <path d="M248.5 98.5L253 103" stroke="#93A398" stroke-width="2" stroke-linecap="round"/>
+  <text x="266" y="99" fill="#839287" font-family="Arial,sans-serif" font-size="13">Search games, top-ups and gift cards</text>
+  <text x="785" y="99" fill="#C5D0C8" font-family="Arial,sans-serif" font-size="13">Browse</text>
+  <text x="870" y="99" fill="#C5D0C8" font-family="Arial,sans-serif" font-size="13">Orders</text>
+  <rect x="960" y="75" width="166" height="40" rx="8" fill="#55E69A"/>
+  <text x="1043" y="100" fill="#0A1710" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle">My account</text>
+  <rect x="56" y="162" width="1088" height="270" rx="16" fill="url(#hero)" stroke="#31523D"/>
+  <circle cx="944" cy="296" r="100" fill="#254F34" fill-opacity=".52"/>
+  <circle cx="944" cy="296" r="68" fill="#397448" fill-opacity=".45"/>
+  <path d="M914 294L944 237L974 294L944 351L914 294Z" fill="#60E79A" fill-opacity=".9"/>
+  <path d="M914 294H974L944 351L914 294Z" fill="#2AAA68"/>
+  <rect x="94" y="190" width="170" height="27" rx="13.5" fill="#203B2B"/>
+  <circle cx="110" cy="203.5" r="4" fill="#55E69A"/>
+  <text x="123" y="208" fill="#9FE9BB" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">YOUR DIGITAL GOODS</text>
+  <text x="94" y="269" fill="#F0F6F1" font-family="Arial,sans-serif" font-size="43" font-weight="700">Level up,</text>
+  <text x="94" y="319" fill="#55E69A" font-family="Arial,sans-serif" font-size="43" font-weight="700">without the wait.</text>
+  <text x="96" y="354" fill="#B2C4B7" font-family="Arial,sans-serif" font-size="15">Top-ups, subscriptions and gift cards — all in one place.</text>
+  <rect x="94" y="378" width="143" height="36" rx="7" fill="#55E69A"/>
+  <text x="165.5" y="401" fill="#09150E" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">Explore products</text>
+  <text x="58" y="479" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="19" font-weight="700">Popular categories</text>
+  <text x="1142" y="478" fill="#55E69A" font-family="Arial,sans-serif" font-size="12" text-anchor="end">View all →</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="58" y="501" width="258" height="151" rx="12" fill="url(#tile)" stroke="#304238"/>
+    <rect x="76" y="519" width="52" height="52" rx="12" fill="#324B31"/>
+    <path d="M91 558L102 531L113 558M95 550H109" stroke="#9BE9A4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="76" y="602" fill="#EDF5EF" font-size="15" font-weight="700">Game top-ups</text>
+    <text x="76" y="625" fill="#90A096" font-size="12">Fast delivery, ready to play</text>
+    <rect x="333" y="501" width="258" height="151" rx="12" fill="url(#tile)" stroke="#304238"/>
+    <rect x="351" y="519" width="52" height="52" rx="12" fill="#304333"/>
+    <path d="M365 543H389M377 531V555" stroke="#A3E6B5" stroke-width="3" stroke-linecap="round"/>
+    <text x="351" y="602" fill="#EDF5EF" font-size="15" font-weight="700">Subscriptions</text>
+    <text x="351" y="625" fill="#90A096" font-size="12">Your favorite services</text>
+    <rect x="608" y="501" width="258" height="151" rx="12" fill="url(#tile)" stroke="#304238"/>
+    <rect x="626" y="519" width="52" height="52" rx="12" fill="#3E3430"/>
+    <path d="M640 532H664V558H640V532Z" stroke="#F0BD76" stroke-width="2.5"/>
+    <path d="M644 540H660M644 547H656" stroke="#F0BD76" stroke-width="2"/>
+    <text x="626" y="602" fill="#EDF5EF" font-size="15" font-weight="700">Gift cards</text>
+    <text x="626" y="625" fill="#90A096" font-size="12">A little something, instantly</text>
+    <rect x="883" y="501" width="258" height="151" rx="12" fill="url(#tile)" stroke="#304238"/>
+    <rect x="901" y="519" width="52" height="52" rx="12" fill="#323650"/>
+    <path d="M914 534L940 546L914 558V534Z" fill="#AEB7FF"/>
+    <text x="901" y="602" fill="#EDF5EF" font-size="15" font-weight="700">Game keys</text>
+    <text x="901" y="625" fill="#90A096" font-size="12">Discover your next favorite</text>
+  </g>
+  <text x="58" y="706" fill="#637469" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.5">A CONCEPTUAL INTERFACE PREVIEW</text>
+</svg>

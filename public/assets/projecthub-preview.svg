@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="0" x2="1080" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14251B"/>
+      <stop offset="1" stop-color="#0B100E"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="210" y1="485" x2="1010" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55E69A" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#55E69A" stop-opacity=".3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="758" rx="19" stroke="#304238" stroke-width="2"/>
+  <path d="M22 1H1178C1189.6 1 1199 10.402 1199 22V54H1V22C1 10.402 10.402 1 22 1Z" fill="#141C17"/>
+  <circle cx="27" cy="27" r="6" fill="#F16D66"/><circle cx="49" cy="27" r="6" fill="#E8B653"/><circle cx="71" cy="27" r="6" fill="#58C985"/>
+  <rect x="407" y="14" width="386" height="26" rx="13" fill="#0C120E"/>
+  <text x="600" y="32" fill="#8EA397" font-family="Arial,sans-serif" font-size="12" text-anchor="middle">app.projecthub.dev</text>
+  <rect x="1" y="55" width="1198" height="704" fill="#0E1511"/>
+  <rect x="1" y="55" width="220" height="704" fill="#111A14"/>
+  <path d="M220 55V759" stroke="#29382E"/>
+  <rect x="28" y="77" width="38" height="38" rx="10" fill="#55E69A"/>
+  <path d="M39 88H55V104H39V88Z" stroke="#0A1710" stroke-width="2"/>
+  <text x="78" y="102" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="17" font-weight="700">Project Hub</text>
+  <rect x="18" y="145" width="184" height="38" rx="7" fill="#203328"/>
+  <rect x="33" y="157" width="13" height="13" rx="2" stroke="#55E69A" stroke-width="2"/>
+  <text x="58" y="169" fill="#55E69A" font-family="Arial,sans-serif" font-size="13" font-weight="700">Overview</text>
+  <g fill="#9AA99E" font-family="Arial,sans-serif" font-size="13">
+    <rect x="34" y="204" width="14" height="14" rx="3" stroke="#7D8D81" stroke-width="1.5"/>
+    <text x="58" y="216">My projects</text>
+    <circle cx="41" cy="258" r="7" stroke="#7D8D81" stroke-width="1.5"/>
+    <text x="58" y="263">Team members</text>
+    <path d="M34 300H48V314H34V300Z" stroke="#7D8D81" stroke-width="1.5"/>
+    <text x="58" y="312">Reports</text>
+  </g>
+  <path d="M18 346H202" stroke="#29382E"/>
+  <text x="33" y="377" fill="#728076" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">WORKSPACES</text>
+  <circle cx="41" cy="411" r="8" fill="#735BD6"/><text x="58" y="416" fill="#B7C2BA" font-family="Arial,sans-serif" font-size="12">Studio North</text>
+  <circle cx="41" cy="444" r="8" fill="#DB9853"/><text x="58" y="449" fill="#B7C2BA" font-family="Arial,sans-serif" font-size="12">Side project</text>
+  <text x="255" y="104" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="26" font-weight="700">Good morning, Pramesh</text>
+  <text x="255" y="131" fill="#8F9F93" font-family="Arial,sans-serif" font-size="13">Here’s what’s happening across your workspace.</text>
+  <rect x="1008" y="81" width="148" height="40" rx="7" fill="#55E69A"/>
+  <text x="1082" y="106" fill="#09150E" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">+ New project</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="255" y="164" width="274" height="112" rx="10" fill="#141E17" stroke="#29382E"/>
+    <text x="276" y="194" fill="#91A095" font-size="12">Active projects</text>
+    <text x="276" y="244" fill="#EDF5EF" font-size="35" font-weight="700">12</text>
+    <text x="468" y="244" fill="#55E69A" font-size="12">↗ 2 this month</text>
+    <rect x="548" y="164" width="274" height="112" rx="10" fill="#141E17" stroke="#29382E"/>
+    <text x="569" y="194" fill="#91A095" font-size="12">Team members</text>
+    <text x="569" y="244" fill="#EDF5EF" font-size="35" font-weight="700">08</text>
+    <circle cx="751" cy="233" r="14" fill="#5A7770"/><circle cx="777" cy="233" r="14" fill="#77659B"/><circle cx="803" cy="233" r="14" fill="#C08B59"/>
+    <rect x="841" y="164" width="315" height="112" rx="10" fill="#141E17" stroke="#29382E"/>
+    <text x="862" y="194" fill="#91A095" font-size="12">Budget used</text>
+    <text x="862" y="244" fill="#EDF5EF" font-size="35" font-weight="700">$8.4k</text>
+    <text x="1023" y="244" fill="#91A095" font-size="12">of $12k</text>
+  </g>
+  <rect x="255" y="300" width="901" height="249" rx="10" fill="#141E17" stroke="#29382E"/>
+  <text x="278" y="334" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="15" font-weight="700">Project activity</text>
+  <text x="1130" y="334" fill="#91A095" font-family="Arial,sans-serif" font-size="11" text-anchor="end">Last 30 days</text>
+  <path d="M286 493H1126M286 452H1126M286 411H1126M286 370H1126" stroke="#26342A" stroke-dasharray="4 6"/>
+  <path d="M286 474L390 458L494 468L598 416L702 435L806 386L910 398L1014 365L1126 380V511H286V474Z" fill="url(#chart)"/>
+  <path d="M286 474L390 458L494 468L598 416L702 435L806 386L910 398L1014 365L1126 380" stroke="#55E69A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="806" cy="386" r="5" fill="#55E69A"/>
+  <text x="255" y="592" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="17" font-weight="700">Projects</text>
+  <text x="1156" y="591" fill="#55E69A" font-family="Arial,sans-serif" font-size="12" text-anchor="end">View all →</text>
+  <rect x="255" y="610" width="901" height="75" rx="9" fill="#141E17" stroke="#29382E"/>
+  <circle cx="283" cy="647" r="13" fill="#735BD6"/>
+  <text x="308" y="644" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="13" font-weight="700">Website redesign</text>
+  <text x="308" y="665" fill="#87968B" font-family="Arial,sans-serif" font-size="11">Studio North · Updated 2h ago</text>
+  <rect x="798" y="635" width="170" height="6" rx="3" fill="#29382E"/><rect x="798" y="635" width="112" height="6" rx="3" fill="#55E69A"/>
+  <text x="988" y="645" fill="#AAB8AE" font-family="Arial,sans-serif" font-size="11">66%</text>
+  <rect x="1041" y="630" width="86" height="28" rx="14" fill="#203328"/>
+  <text x="1084" y="648" fill="#76DFA4" font-family="Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle">IN PROGRESS</text>
+  <text x="255" y="724" fill="#637469" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.5">A CONCEPTUAL INTERFACE PREVIEW</text>
+</svg>

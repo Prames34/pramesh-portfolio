@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="85" y1="15" x2="1112" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14251B"/>
+      <stop offset="1" stop-color="#0B100E"/>
+    </linearGradient>
+    <linearGradient id="positive" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#55E69A" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#55E69A" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="758" rx="19" stroke="#304238" stroke-width="2"/>
+  <path d="M22 1H1178C1189.6 1 1199 10.402 1199 22V54H1V22C1 10.402 10.402 1 22 1Z" fill="#141C17"/>
+  <circle cx="27" cy="27" r="6" fill="#F16D66"/><circle cx="49" cy="27" r="6" fill="#E8B653"/><circle cx="71" cy="27" r="6" fill="#58C985"/>
+  <rect x="407" y="14" width="386" height="26" rx="13" fill="#0C120E"/>
+  <text x="600" y="32" fill="#8EA397" font-family="Arial,sans-serif" font-size="12" text-anchor="middle">quotexbot • signals</text>
+  <rect x="1" y="55" width="1198" height="704" fill="#0E1511"/>
+  <rect x="1" y="55" width="220" height="704" fill="#111A14"/>
+  <path d="M220 55V759" stroke="#29382E"/>
+  <rect x="28" y="77" width="38" height="38" rx="11" fill="#183E2A"/>
+  <path d="M38 99L46 90L52 95L59 85" stroke="#55E69A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="102" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="17" font-weight="700">QuotexBot</text>
+  <rect x="18" y="145" width="184" height="38" rx="7" fill="#203328"/>
+  <circle cx="41" cy="164" r="7" stroke="#55E69A" stroke-width="2"/>
+  <text x="58" y="169" fill="#55E69A" font-family="Arial,sans-serif" font-size="13" font-weight="700">Dashboard</text>
+  <g fill="#9AA99E" font-family="Arial,sans-serif" font-size="13">
+    <path d="M34 205H48V219H34V205Z" stroke="#7D8D81" stroke-width="1.5"/>
+    <text x="58" y="217">Signal history</text>
+    <path d="M35 250H47M41 244V256" stroke="#7D8D81" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="58" y="258">Indicators</text>
+    <circle cx="41" cy="302" r="7" stroke="#7D8D81" stroke-width="1.5"/>
+    <path d="M41 298V302L44 304" stroke="#7D8D81" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="58" y="307">Settings</text>
+  </g>
+  <path d="M18 346H202" stroke="#29382E"/>
+  <text x="33" y="377" fill="#728076" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">BOT STATUS</text>
+  <circle cx="39" cy="408" r="5" fill="#55E69A"/>
+  <text x="55" y="412" fill="#AAB9AD" font-family="Arial,sans-serif" font-size="12">Connected</text>
+  <rect x="255" y="81" width="134" height="25" rx="12.5" fill="#203328"/>
+  <circle cx="270" cy="93.5" r="4" fill="#55E69A"/>
+  <text x="282" y="98" fill="#76DFA4" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing=".8">DEMO ACCOUNT</text>
+  <text x="255" y="151" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="27" font-weight="700">Signal overview</text>
+  <text x="255" y="177" fill="#8F9F93" font-family="Arial,sans-serif" font-size="13">Technical indicators, monitored in one place.</text>
+  <rect x="1013" y="124" width="143" height="38" rx="7" fill="#17231B" stroke="#304238"/>
+  <text x="1084" y="148" fill="#C4D0C7" font-family="Arial,sans-serif" font-size="12" text-anchor="middle">EUR / USD⌄</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="255" y="207" width="275" height="102" rx="10" fill="#141E17" stroke="#29382E"/>
+    <text x="276" y="235" fill="#91A095" font-size="12">Signals today</text>
+    <text x="276" y="282" fill="#EDF5EF" font-size="34" font-weight="700">24</text>
+    <text x="352" y="280" fill="#55E69A" font-size="12">+6 from yesterday</text>
+    <rect x="548" y="207" width="275" height="102" rx="10" fill="#141E17" stroke="#29382E"/>
+    <text x="569" y="235" fill="#91A095" font-size="12">Indicators aligned</text>
+    <text x="569" y="282" fill="#EDF5EF" font-size="34" font-weight="700">3 / 3</text>
+    <text x="683" y="280" fill="#91A095" font-size="12">EMA · RSI · MACD</text>
+    <rect x="841" y="207" width="315" height="102" rx="10" fill="#141E17" stroke="#29382E"/>
+    <text x="862" y="235" fill="#91A095" font-size="12">Bot status</text>
+    <circle cx="876" cy="273" r="6" fill="#55E69A"/>
+    <text x="892" y="279" fill="#55E69A" font-size="18" font-weight="700">Monitoring</text>
+  </g>
+  <rect x="255" y="333" width="901" height="230" rx="10" fill="#141E17" stroke="#29382E"/>
+  <text x="279" y="367" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="15" font-weight="700">EUR / USD</text>
+  <text x="279" y="390" fill="#91A095" font-family="Arial,sans-serif" font-size="11">1 minute · Demo market feed</text>
+  <text x="1129" y="370" fill="#55E69A" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="end">1.08462</text>
+  <path d="M281 509H1127M281 472H1127M281 435H1127M281 398H1127" stroke="#26342A" stroke-dasharray="4 6"/>
+  <path d="M281 512L350 496L406 502L470 468L526 482L594 450L647 461L718 419L777 432L846 410L900 423L974 386L1038 402L1127 378V526H281V512Z" fill="url(#positive)"/>
+  <path d="M281 512L350 496L406 502L470 468L526 482L594 450L647 461L718 419L777 432L846 410L900 423L974 386L1038 402L1127 378" stroke="#55E69A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M281 518C363 504 395 500 470 491C538 482 581 472 647 461C720 449 782 435 846 430C920 424 973 411 1038 405C1071 402 1102 398 1127 394" stroke="#7291FF" stroke-width="2" stroke-dasharray="6 6" opacity=".8"/>
+  <rect x="255" y="584" width="901" height="101" rx="10" fill="#141E17" stroke="#29382E"/>
+  <text x="278" y="615" fill="#EDF5EF" font-family="Arial,sans-serif" font-size="14" font-weight="700">Latest signal</text>
+  <rect x="278" y="632" width="67" height="26" rx="13" fill="#203328"/>
+  <text x="311.5" y="649" fill="#75DDA3" font-family="Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle">CALL</text>
+  <text x="364" y="649" fill="#B5C2B8" font-family="Arial,sans-serif" font-size="12">EMA crossover confirmed by RSI and MACD</text>
+  <text x="1127" y="648" fill="#91A095" font-family="Arial,sans-serif" font-size="11" text-anchor="end">09:42:18</text>
+  <text x="255" y="724" fill="#637469" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.5">A CONCEPTUAL INTERFACE PREVIEW · DEMO ACCOUNT</text>
+</svg>
