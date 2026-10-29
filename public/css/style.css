@@ -1,0 +1,81 @@
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#F2F5FA; --surface:#FFFFFF; --ink:#101B33; --muted:#53607A;
+  --line:#D5DCE9; --blue:#12357F; --crimson:#C8102E; --ridge:#12357F;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D1526; --surface:#142038; --ink:#EDF1F9; --muted:#9BA8C4;
+    --line:#26365A; --blue:#8EACF2; --crimson:#FF5A72; --ridge:#2A4A9A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0D1526; --surface:#142038; --ink:#EDF1F9; --muted:#9BA8C4;
+  --line:#26365A; --blue:#8EACF2; --crimson:#FF5A72; --ridge:#2A4A9A;
+  color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;line-height:1.05;margin:0}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--crimson);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:22px 0}
+.logo{font:800 22px "Bricolage Grotesque",sans-serif;text-decoration:none}
+.logo i{color:var(--crimson);font-style:normal}
+nav a{margin-left:22px;text-decoration:none;color:var(--muted);font-weight:500}
+nav a:hover{color:var(--ink)}
+.hero{padding:56px 0 0}
+.hero h1{font-size:clamp(44px,9vw,104px);font-weight:800;letter-spacing:-.03em;max-width:12ch}
+.hero p.lead{font-size:clamp(18px,2.4vw,22px);color:var(--muted);max-width:52ch;margin:26px 0 30px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 22px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--ink)}
+.btn.fill{background:var(--crimson);border-color:var(--crimson);color:#fff}
+.btn:hover{transform:translateY(-2px)}
+.ridge{display:block;width:100%;height:auto;margin-top:46px}
+.ridge path{fill:var(--ridge)}
+.ridge .back{opacity:.28}
+section{padding:84px 0 0}
+h2{font-size:clamp(30px,5vw,48px);font-weight:800;letter-spacing:-.02em;margin-bottom:34px}
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:48px}
+.about p{margin:0 0 16px;max-width:60ch}
+.facts{border-left:3px solid var(--crimson);padding-left:22px;align-self:start}
+.facts dt{font-weight:700;margin-top:14px}
+.facts dt:first-child{margin-top:0}
+.facts dd{margin:2px 0 0;color:var(--muted)}
+.project{display:grid;grid-template-columns:200px 1fr;gap:12px 40px;padding:34px 0;border-top:1px solid var(--line)}
+.project:last-child{border-bottom:1px solid var(--line)}
+.project h3{font-size:30px;font-weight:800}
+.project .tag{color:var(--crimson);font-weight:700;margin-top:6px;font-size:15px}
+.project p{margin:0 0 14px;max-width:62ch}
+.project ul{margin:0 0 16px;padding-left:20px;color:var(--muted)}
+.project li{margin-bottom:4px}
+.stack{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;padding:0;list-style:none}
+.stack li{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:3px 10px;font-size:14px;font-weight:500;color:var(--ink)}
+.plink{font-weight:700;color:var(--blue);text-decoration:underline;text-underline-offset:4px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px}
+.skills h3{font-size:20px;margin-bottom:10px;color:var(--blue)}
+.skills p{margin:0;color:var(--muted)}
+.contact{background:var(--blue);color:#fff;margin-top:96px;padding:72px 0 64px}
+:root:not([data-theme="light"]) .contact{}
+.contact h2{color:#fff;margin-bottom:14px}
+.contact p{max-width:48ch;margin:0 0 26px;color:#DCE4F7}
+.contact .btn{border-color:#fff;color:#fff}
+.contact .btn.fill{background:#fff;color:#12357F;border-color:#fff}
+footer{padding:24px 0 8px;color:var(--muted);font-size:14px}
+@media (max-width:760px){
+  .about,.project{grid-template-columns:1fr}
+  nav a{margin-left:14px}
+  section{padding-top:64px}
+}
+@media (prefers-reduced-motion:no-preference){
+  .hero h1,.hero .lead,.hero .cta{animation:rise .7s both}
+  .hero .lead{animation-delay:.12s}.hero .cta{animation-delay:.22s}
+  .ridge .front{animation:rise .9s .3s both}
+}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}

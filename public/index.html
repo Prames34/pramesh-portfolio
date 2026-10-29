@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sangam – Full-stack developer</title>
+<meta name="description" content="Sangam builds marketplaces, dashboards and automation tools with React, Node.js and Python.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="logo" href="#top">Pramesh Shrestha<i>.</i></a>
+    <nav aria-label="Main"><a href="#work">Work</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <h1>I build software people use every day.</h1>
+      <p class="lead">I’m Sangam, a full-stack developer. I design and ship marketplaces, dashboards and automation tools, from the database to the screen.</p>
+      <div class="cta">
+        <a class="btn fill" href="#work">See my work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+      <svg class="ridge" viewBox="0 0 1040 150" preserveAspectRatio="none" aria-hidden="true">
+        <path class="back" d="M0 150V92l70-42 60 34 90-64 80 58 70-28 110 66 90-60 100 52 80-34 110 60 80-46 100 30 0 82z"/>
+        <path class="front" d="M0 150V120l110-46 70 36 120-70 90 64 110-40 90 50 120-80 100 70 90-30 130 56V150z"/>
+      </svg>
+    </div>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="about">
+        <div>
+          <p>I’m a developer who likes owning a product end to end. I plan the data model, build the API, wire up the interface, then deploy and harden it.</p>
+          <p>My main project, NepSub, is a digital goods marketplace for Nepal. It sells game top-ups, subscriptions, gift cards and game keys. I also build trading automation and internal-tools software.</p>
+        </div>
+        <dl class="facts">
+          <dt>Focus</dt><dd>Marketplaces, dashboards, bots</dd>
+          <dt>Core stack</dt><dd>React, Node.js, Express, PostgreSQL, Python</dd>
+          <dt>Building for</dt><dd>Nepal’s growing online market</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2>Selected work</h2>
+
+      <article class="project">
+        <div><h3>NepSub</h3><div class="tag">Live marketplace</div></div>
+        <div>
+          <p>A digital goods marketplace for Nepal. Customers buy game top-ups, subscriptions, gift cards and game keys in one place.</p>
+          <ul>
+            <li>Google and Facebook sign-in with OAuth 2.0</li>
+            <li>Flexible product data: variants, flash deals, bundle deals and dynamic pricing</li>
+            <li>Security headers hardened in Express: CSP, X-Frame-Options, Referrer-Policy and Permissions-Policy</li>
+          </ul>
+          <ul class="stack"><li>React</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>Render</li></ul>
+          <a class="plink" data-link="nepsub" href="#contact">Visit NepSub</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div><h3>Project Hub</h3><div class="tag">Product in build</div></div>
+        <div>
+          <p>One platform where an organization creates, manages and tracks all its projects. Think GitHub for real-world work.</p>
+          <ul>
+            <li>Project dashboards, finance tracking and activity history</li>
+            <li>Reports and an organization-wide command center</li>
+            <li>Planned as a five-phase MVP</li>
+          </ul>
+          <ul class="stack"><li>JavaScript</li><li>Node.js</li><li>Express</li><li>Database-backed</li></ul>
+          <a class="plink" data-link="projecthub" href="#contact">View project</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div><h3>QuotexBot</h3><div class="tag">Automation</div></div>
+        <div>
+          <p>A Telegram bot that sends trading signals from technical indicators. It runs against the Quotex broker through pyquotex.</p>
+          <ul>
+            <li>Signals from EMA crossover, RSI and MACD</li>
+            <li>Tested on a demo account</li>
+            <li>Win and loss tracking per signal is next</li>
+          </ul>
+          <ul class="stack"><li>Python</li><li>Telegram Bot API</li><li>pyquotex</li></ul>
+          <a class="plink" data-link="quotexbot" href="#contact">View project</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2>What I do</h2>
+      <div class="skills">
+        <div><h3>Frontend</h3><p>React interfaces with clear flows, such as variant pickers and package grids for top-up stores.</p></div>
+        <div><h3>Backend</h3><p>Node.js and Express APIs, PostgreSQL schemas, authentication and payments-ready order flows.</p></div>
+        <div><h3>Security</h3><p>Social login, header audits and hardening before a site goes in front of real customers.</p></div>
+        <div><h3>Automation</h3><p>Python bots and scripts that watch data and act on it.</p></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div class="contact" id="contact">
+  <div class="wrap">
+    <h2>Let’s build something.</h2>
+    <p>I’m open to freelance projects, collaborations and full-time roles. Send a short note about what you need.</p>
+    <div class="cta">
+      <a class="btn fill" data-link="email" href="#contact">Email me</a>
+      <a class="btn" data-link="linkedin" href="#contact">LinkedIn</a>
+      <a class="btn" data-link="github" href="#contact">GitHub</a>
+    </div>
+    <footer style="color:#B9C6E6">© <span id="yr">2026</span> Sangam</footer>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
